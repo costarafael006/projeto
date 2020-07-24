@@ -1,8 +1,9 @@
 spring:
   datasource:
+    url: jdbc:oracle:thin:@192.168.0.11:1521:ODBS02
     password: sapiens_hom
     username: sapiens_hom
-    url: jdbc:oracle:thin:@192.168.0.11:1521:ODBS02
+    driver-class-name: oracle.jdbc.OracleDriver
   jpa:
     hibernate:
       ddl-auto: update
